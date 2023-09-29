@@ -1,0 +1,214 @@
+.maincontainer{
+    position:relative;
+    background-image: url("fruit.jpeg");
+    background-position:initial;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.secondimg{
+    background-image: url("allfruit.jpg");
+    background-position:center;
+}
+.navbar{
+    background-image: url("anotherback.jpg");
+    background-image: linear-gradient(to right,rgb(25, 170, 25),rgb(1, 52, 1),rgb(19, 107, 19));
+    background-repeat: no-repeat;
+   background-position:center;
+   background-size:cover;
+   font-family: arial;
+padding:0px;
+opacity: 0.8;
+margin-top:12px;
+padding:5px;
+}
+.callus{
+    color:rgb(61, 255, 61);
+
+}
+.tazza{
+    font-family: Arnold Boecklin Std;
+    font-size:30px;
+}
+.organic{
+    font-family:Bahnschrift Light Condensed;
+   font-weight: bold;
+   margin-top:150px;
+   color:rgb(2, 44, 2);
+}
+.fresh{
+    
+    color:white;
+}
+.natural{
+    background-color:rgb(2, 44, 2) ;
+    font-family: Segoe UI Black;
+    font-size:25px;
+    
+}
+.readable{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.allproduct{
+    color:white;
+    border-radius: 20px;
+    font-size:12px;
+    font-weight:bolder;
+    background-image:linear-gradient(to right,rgb(3, 87, 3),rgb(0, 184, 0));
+    
+}
+.allproduct:hover{
+    background-image:linear-gradient(white,white);
+    color:rgb(3, 48, 3);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.circle{
+    background-color: rgb(219, 249, 219);
+    color:green;
+}
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+   
+}
+.logo{
+    cursor:pointer;
+}
+.logo:hover{
+    transition: 0.5s;
+    background-color:rgb(1, 28, 1);
+    color:white;
+    
+}
+.providing{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:100px;
+}
+.money{
+    font-family:'Arial Narrow';
+    color:rgb(4, 226, 4);
+    font-weight: bold;
+}
+.cardcontainer{
+    overflow: hidden;
+}
+
+.cardcontainer:hover .ButtonContaienr{
+    bottom:0;
+    
+}
+.ButtonContaienr{
+    position:absolute;
+    bottom:-8em;
+    text-align: center;
+    right:0;
+    left:0;
+    background-color: rgb(0, 21, 0);
+    transition: all 0.6s ease;
+    opacity:0.97;
+}
+.commentcontainer{
+    background-color: rgb(231, 252, 241);
+}
+.happy{
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+}
+.textContainer{
+    background-image:linear-gradient(to right,rgb(4, 219, 4),rgb(4, 112, 4));
+}
+.photoConatiner{
+    background-color: rgb(1, 55, 20);
+  
+}
+
+.myPassage{
+    text-align: end;
+}
+.bottomContainer{
+    background-color:rgb(8, 32, 8);
+   
+}
+.nimboo{
+    font-family: 'Arial Narrow';
+}
+.paragraph{
+    font-family: 'Arial Narrow';
+    
+}
+.facebook{
+    cursor:pointer;
+}
+.facebook:hover{
+    transition: all 0.4s ease;
+    font-size:20px;
+}
+footer{
+    background-color: rgb(7, 216, 7);
+}
+.tomatofruit{
+    margin-top:20px;
+}
+@media (max-width:880px){
+    .mycoma{
+        font-size: 30px;
+
+    }
+    .aboutour{
+        font-size:12px;
+    }
+    .Mrname{
+        font-size:20px;
+    }
+    
+}
+@media (max-width:767px){
+    .tomatofruit{
+        margin-top:0;
+        
+    }
+    .fruits{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:576px){
+    .Free{
+       margin-bottom: 18px;
+    }
+    .mangoContainer{
+        width:50%;
+        margin:0 auto;
+    }
+    .photoConatiner{
+        width:45%;
+        height:100%;
+    }
+    .lorempassage{
+        width:55%;
+    }
+    .fruits{
+        width:75%;
+        margin:0 auto;
+        margin-bottom:15px;
+    }
+    .viewmore, .customersupport{
+        margin-bottom:20px;
+    }
+    .tomatofruit{
+        margin-top:0;
+        
+    }
+    .aboutour{
+        font-size:10px;
+    }
+    .Mrname{
+        font-size:10px;
+    
+    }   
+    .HCustomer{
+        font-size:8px;
+    } 
+    .mycoma{
+        font-size:10px;
+    }
+}
